@@ -1,0 +1,263 @@
+JSON   ССЫЛКА НА РЕПОЗИТОРИЙ https://github.com/KaterynaKuprina/json.git
+ 4. Создать внешний репозиторий c названием JSON.
+Open website
+Button "Repositories"
+Button "New"
+Create repository "JSON"
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.  
+Button "Code"
+Copy link
+git clone https://github.com/KaterynaKuprina/json.git
+Insert it in git bash
+ 6. Внутри локального JSON создать файл “new.json”. 
+touch new.json
+ 7. Добавить файл под гит. 
+git add new.json
+ 8. Закоммитить файл. 
+git commit -m "homework"
+ 9. Отправить файл на внешний GitHub репозиторий. 
+git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json
+
+[
+{
+"First name" : "Kateryna",
+"Last name" : "Morhun",
+"Age" : "34",
+"Pets" : "Seven",
+"Future salary" : "1000$+"
+}
+]
+
+ 11. Отправить изменения на внешний репозиторий.  
+git commit -m "redaction file"
+git push
+
+ 12. Создать файл preferences.json 
+touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json
+[
+        {
+                "Movie" : "Shawshank redemption",
+                "TV series" : "Sherlock",
+                "Food" : "Sorbet",
+                "Season" : "autumn",
+                "Country" : "Ireland"
+        }
+]
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+cat sklls.json
+{
+"sklls" : [
+"Postman",
+"Jira",
+"Avtomatization",
+"etc"
+]
+}
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git commit -m "add 2 files"
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+Open website
+Button "Repositories"
+Choose repositiry "json"
+Button "add new file" 
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Button "commit new file"
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+[
+   {
+     "Summary" : "Enemy collision is missing in specific location",
+      "Components" : "combat",
+      "Labels" : "collision, combat",
+   
+      "Steps to reproduce" : [
+                             "1. Boot the title",
+                             "2. Start the match",
+                             "3. Shoot on enemy"
+                              ],
+     "Description" : "When shooting the enemy using any weapon collision is missing. The issue is present in specific location. Recording, saves, logs, screenshot are attached",
+     "Severity" : "high",
+     "Probability" : "medium",
+     "Reproducebility" : "5/5",
+     "Platform" : "PS4 Pro"
+   }
+]
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Button commit changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+
+XML  ССЫЛКА НА РЕПОЗИТОРИЙ https://github.com/KaterynaKuprina/XML.git
+ 21. Создать внешний репозиторий c названием XML.  
+Open website
+Button "Repositories"
+Button "New"
+Create repository XML  
+ 22. Клонировать репозиторий XML на локальный компьютер.
+    git clone https://github.com/KaterynaKuprina/XML.git
+ 23. Внутри локального XML создать файл “new.xml”.
+    touch new.xml
+ 24. Добавить файл под гит.
+     git add new.xml
+
+ 25. Закоммитить файл.
+git commit -m "new file"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+<user>
+        <FirstName>Kateryna</FirstName>
+        <LastName>Morhun</LastName>
+        <Age>34</Age>
+        <Pets>Seven</Pets>
+        <FutureSalary>1000$</FutureSalary>
+</user>
+
+ 28. Отправить изменения на внешний репозиторий.
+git push
+ 29. Создать файл preferences.xml
+touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+<user>
+        <movie>ShawshankRedemption</movie>
+        <TVseries>Sherlock</TVseries>
+        <food>sorbet</food>
+        <season>autumn</season>
+        <country>Ireland</country>
+</user>
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+cat > skills.xml
+<skills>
+        <skill>avtomatization jira api sql git postman</skill>
+</skills>
+ 32. Сделать коммит в одну строку.
+git commit -m "two files"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+Open website
+Button "Repositories"
+Choose repositiry "xml"
+Button "add new file" 
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Button "commit new file"
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<xml version>
+            <report>
+                    <summary>Enemy collision is missing in specific location</summary>
+                    <components>combat</components>
+                    <labels>collision, combat</labels>
+                                            <steps to reproduce>
+                                                              <first>Boot the title</first>
+                                                              <second>start the match</second>
+                                                              <third>shoot on enemy</third>
+                                            </steps to reproduce>
+                    <description>When shooting the enemy using any weapon collision is missing. The issue is present in specific location. Recording, saves, logs, screenshot are attached</description>
+                    <severity>high</severity>
+                    <probability>medium</probability>
+                    <reproducebility>5/5</reproducebility>
+                    <platform>PS4 Pro</platform>
+           <report>
+<xml version>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Button commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
+
+
+TXT  ССЫЛКА НА РЕПОЗИТОРИЙ  https://github.com/KaterynaKuprina/TXT.git
+ 1. Создать внешний репозиторий c названием TXT.
+Open website
+Button "Repositories"
+Button "New"
+Create repository "JSON"
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+git clone https://github.com/KaterynaKuprina/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+touch new.txt
+
+ 4. Добавить файл под гит.
+git add new.txt
+
+ 5. Закоммитить файл.
+git commit -m "new file"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.txt
+First name: Kateryna
+Last name: Morhun
+Age: 34
+Pets: seven
+Future salary: 1000$+
+
+ 8. Отправить изменения на внешний репозиторий.
+git commit -m "new changes"
+git push
+
+ 9. Создать файл preferences.txt
+touch preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+Vim preferences.txt
+Movie: Shawshank redemption
+TV series: Sherlock
+Food: sorbet
+Season: autumn
+Country: Ireland
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+cat > skills.txt
+Avtomatization
+Jira
+Postman
+API
+SQL
+Git
+
+ 12. Сделать коммит в одну строку.
+git commit -m "new files"
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+git push
+ 14. На веб интерфейсе создать файл bug_report.txt.
+Open website
+Button "Repositories"
+Choose repositiry "xml"
+Button "add new file" 
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Button "commit changes"
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+Summary: Enemy collision is missing in specific location
+Components: combat
+Labels: collision, combat
+Steps to reproduce: 1. Boot the title
+                    2. Start the match
+                    3. Shoot on enemy
+Description: When shooting the enemy using any weapon collision is missing. The issue is present in specific location. Recording, saves, logs, screenshot are attached
+Severity: high
+Probability: medium
+Reproducebility: 5/5
+Platform: PS4 Pro
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Button commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
